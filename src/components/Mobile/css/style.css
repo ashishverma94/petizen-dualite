@@ -1,0 +1,240 @@
+.wrapper-div-20561145 {
+  --image-0: url(../graphics/graphics0.png);
+  --image-1: url(../graphics/graphics1.png);
+  --image-2: url(../graphics/graphics2.png);
+  --image-3: url(../graphics/graphics3.png);
+  position: relative;
+  max-width: 1440px;
+  margin: auto;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.how-does-blush--20561146-0 {
+  font-size: 59px;
+  letter-spacing: -1.2px;
+  line-height: 60px;
+
+  font-family: Abhaya Libre;
+  font-weight: 700;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #000000ff;
+}
+.gradient-0 {
+  background: linear-gradient(
+    180deg,
+    #eaeceaff 4%,
+    #e9e9e9ff 16%,
+    #e9e9e9ff 82%,
+    #eaeceaff 91%
+  );
+}
+.gradient-1 {
+  background: linear-gradient(
+    180deg,
+    #eaeceaff 4%,
+    #e9e9e9ff 16%,
+    #e9e9e9ff 82%,
+    #eaeceaff 91%
+  );
+}
+.nodeBg-20561167 {
+  opacity: 1;
+  background-image: var(--image-0);
+}
+.gradient-2 {
+  background: linear-gradient(
+    180deg,
+    #eaeceaff 4%,
+    #e9e9e9ff 16%,
+    #e9e9e9ff 82%,
+    #eaeceaff 91%
+  );
+}
+.nodeBg-20561170 {
+  opacity: 1;
+  background-image: var(--image-1);
+}
+.gradient-3 {
+  background: -webkit-radial-gradient(
+    #000000ff 21%,
+    #081a32ff 27%,
+    #1f3a58ff 39%,
+    #375f90ff 51%,
+    #274871ff 71%,
+    #0d1528ff 91%
+  );
+}
+.easy-browsing-20561177-0 {
+  font-size: 39px;
+  letter-spacing: -0.8px;
+  line-height: 40px;
+
+  font-family: Abhaya Libre;
+  font-weight: 700;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: nowrap;
+  color: #000000ff;
+}
+
+.effortlessly-ex-20561178-0 {
+  font-size: 19px;
+  letter-spacing: -0.4px;
+  line-height: 30px;
+
+  font-family: Abhaya Libre;
+  font-weight: 400;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #000000ff;
+}
+.gradient-4 {
+  background: linear-gradient(
+    180deg,
+    #eaeceaff 4%,
+    #e9e9e9ff 16%,
+    #e9e9e9ff 82%,
+    #eaeceaff 91%
+  );
+}
+.gradient-5 {
+  background: linear-gradient(
+    180deg,
+    #eaeceaff 4%,
+    #e9e9e9ff 16%,
+    #e9e9e9ff 82%,
+    #eaeceaff 91%
+  );
+}
+.nodeBg-20561199 {
+  opacity: 1;
+  background-image: var(--image-2);
+}
+.gradient-6 {
+  background: linear-gradient(
+    180deg,
+    #eaeceaff 4%,
+    #e9e9e9ff 16%,
+    #e9e9e9ff 82%,
+    #eaeceaff 91%
+  );
+}
+.nodeBg-20561202 {
+  opacity: 1;
+  background-image: var(--image-3);
+}
+.gradient-7 {
+  background: -webkit-radial-gradient(
+    #000000ff 21%,
+    #081a32ff 27%,
+    #1f3a58ff 39%,
+    #375f90ff 51%,
+    #274871ff 71%,
+    #0d1528ff 91%
+  );
+}
+.easy-browsing-20561209-0 {
+  font-size: 39px;
+  letter-spacing: -0.8px;
+  line-height: 40px;
+
+  font-family: Abhaya Libre;
+  font-weight: 700;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: nowrap;
+  color: #000000ff;
+}
+
+.effortlessly-ex-20561210-0 {
+  font-size: 19px;
+  letter-spacing: -0.4px;
+  line-height: 30px;
+
+  font-family: Abhaya Libre;
+  font-weight: 400;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #000000ff;
+}
+.gradient-8 {
+  background: linear-gradient(
+    180deg,
+    #eaeceaff 4%,
+    #e9e9e9ff 16%,
+    #e9e9e9ff 82%,
+    #eaeceaff 91%
+  );
+}
+.gradient-9 {
+  background: linear-gradient(
+    180deg,
+    #eaeceaff 4%,
+    #e9e9e9ff 16%,
+    #e9e9e9ff 82%,
+    #eaeceaff 91%
+  );
+}
+.nodeBg-20561231 {
+  opacity: 1;
+  background-image: var(--image-2);
+}
+.gradient-10 {
+  background: linear-gradient(
+    180deg,
+    #eaeceaff 4%,
+    #e9e9e9ff 16%,
+    #e9e9e9ff 82%,
+    #eaeceaff 91%
+  );
+}
+.nodeBg-20561234 {
+  opacity: 1;
+  background-image: var(--image-3);
+}
+.gradient-11 {
+  background: -webkit-radial-gradient(
+    #000000ff 21%,
+    #081a32ff 27%,
+    #1f3a58ff 39%,
+    #375f90ff 51%,
+    #274871ff 71%,
+    #0d1528ff 91%
+  );
+}
+.easy-browsing-20561241-0 {
+  font-size: 39px;
+  letter-spacing: -0.8px;
+  line-height: 40px;
+
+  font-family: Abhaya Libre;
+  font-weight: 700;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: nowrap;
+  color: #000000ff;
+}
+
+.effortlessly-ex-20561242-0 {
+  font-size: 19px;
+  letter-spacing: -0.4px;
+  line-height: 30px;
+
+  font-family: Abhaya Libre;
+  font-weight: 400;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #000000ff;
+}

@@ -1,0 +1,4 @@
+const images = {
+  image1: `https://s3-alpha-sig.figma.com/img/71bd/1a88/e2ad2b7b8e58962ee58b796cdf2dd208?Expires=1727049600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=IrDSpk8T8LR9c42oozk29xfoq8E-h6xIgtnYH8eDagGbF5v7-b7~BKUrQw3vf5mHSeOPmGS3ZPoIaVoutVVqcpbRMoEqjcosAvD~319eEvKdcIx7ynNdBYeEVf2~-o6wQN0Ub273tPUJMXlj3xKOHkKwTID7b3L4XfTmVPAsaBR3CFXJBJULuEzlM7IgpyM6mnbO8cbtt3ucWibX9vBC62DATfny-hJ0EBXcsNeFm8GiBQ--sSK1b2XrVympoeybdB8Veo4fQCizu03JCIldN9T7Mab1fqLrZmGTq~GO3Tv-hK31g1VlwC~7U7n1sLNa3mq3L4mz2msNQ0Rdpwd5Qw__`,
+};
+export default images;
