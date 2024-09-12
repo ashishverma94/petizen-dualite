@@ -7,7 +7,7 @@ import images from "./data/images";
 
 //The data/*.js files are objects for default data, use the component with prop values of your choice/requirement
 
-const Component = ({
+const MiddleCard = ({
   text1 = texts.text1,
   text2 = texts.text2,
   text3 = texts.text3,
@@ -265,4 +265,4 @@ const Component = ({
     </div>
   );
 };
-export default Component;
+export default MiddleCard;
