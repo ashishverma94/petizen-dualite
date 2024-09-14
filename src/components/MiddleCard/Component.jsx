@@ -18,15 +18,15 @@ const MiddleCard = ({
 }) => {
   return (
     <div className="wrapper-div-20391208 relative m-auto p-[0px] box-border">
-      <div className=" max-w-[1440px] w-full box-border min-h-[974px] opacity-[1] z-[1]  rotate-[0deg]   flex flex-col flex-nowrap justify-start items-center gap-[60px] p-[120px_0px_120px__0px] bg-[#feedecff]  ">
-        <div className=" max-w-[993px] w-full box-border min-h-[120px] opacity-[1] z-[0]  rotate-[0deg]   text-center leading-[0px] box-border [-webkit-text-stroke:1px_#000000ff] bg-clip-text [text-shadow:0px_4px_4px_rgba(0,0,0,0.25)]  ">
-          <span className="how-does-petize-20391209-0 ">{text1}</span>
+      <div className=" max-w-[1440px] w-full box-border min-h-[974px] opacity-[1] z-[1]  rotate-[0deg]   flex flex-col flex-nowrap justify-start items-center gap-[60px] p-[20px_0px_20px__0px] bg-[#feedecff]  ">
+        <div className=" max-w-[993px] w-full  @container opacity-[1] z-[0]  rotate-[0deg]   text-center leading-[0px] box-border [-webkit-text-stroke:1px_#000000ff] bg-clip-text [text-shadow:0px_4px_4px_rgba(0,0,0,0.25)]  ">
+          <span className="how-does-petize-20391209-0 @xs:text-[25px]  @xl:text-[30px] @4xl:text-[59px] @xs:leading-[25px] @xl:leading-[35px] @4xl:leading-[50px] ">{text1}</span>
         </div>
         {/* Frame 661 */}
-        <section className=" max-w-[1200px] w-full box-border min-h-[554px] opacity-[1] z-[1]  rotate-[0deg]   flex flex-wrap justify-center items-start gap-[48px] p-[0px_0px_0px__0px]  ">
+        <section className="  @container max-w-[1200px] w-full box-border min-h-[554px] opacity-[1] z-[1]  rotate-[0deg]   flex flex-wrap justify-center items-start gap-[48px] p-[0px_0px_0px__0px]  ">
           <div className=" max-w-[368px] w-full box-border min-h-[524px] opacity-[1] z-[0]  rotate-[0deg]   overflow-hidden flex flex-col flex-nowrap justify-start items-start p-[0px_0px_0px__0px]  ">
             <div className=" max-w-[368px] w-full box-border min-h-[280px] opacity-[1] z-[0]  rotate-[0deg]   overflow-hidden flex flex-col flex-nowrap justify-start items-center gap-[10px] p-[28px_0px_28px__0px]  ">
-              <div className=" w-[225.07px] min-h-[224px] opacity-[1] z-[0]  rotate-[0deg]  ">
+              <div className="  w-[225.07px] min-h-[224px] opacity-[1] z-[0]  rotate-[0deg]  ">
                 <div className=" w-[225.07px] max-w-[100%] min-h-[224px] top-[0px] left-[0px] opacity-[1] z-[0]  rotate-[0deg] overflow-hidden   absolute ">
                   <div className="nodeBg-20391214 absolute  top-0 left-0 w-full h-full bg-transparent bg-center bg-contain bg-no-repeat "></div>
                 </div>

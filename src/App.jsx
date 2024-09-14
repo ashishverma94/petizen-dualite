@@ -15,7 +15,7 @@ function App() {
     <div className="px-[10px] py-8 md:px-[100px] ">
       {/* <Navbar /> */}
       {/* <HeroSection /> */}
-      {/* <MiddleCard/> */}
+      <MiddleCard/>
       <Mobile/>
       {/* <Footer/> */}
     </div>
