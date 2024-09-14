@@ -22,9 +22,9 @@ const HeroSection = ({
         <section className=" max-w-[582px] w-full box-border min-h-[321px] opacity-[1] z-[0]  rotate-[0deg]   flex flex-col flex-nowrap justify-start items-start gap-[32px] p-[20px_20px_20px__20px]  ">
           <div className=" max-w-[542px] w-full box-border min-h-[188px] opacity-[1] z-[0]  rotate-[0deg]   flex flex-col flex-nowrap justify-start items-start gap-[8px] p-[0px_0px_0px__0px]  ">
             <div className=" max-w-[542px] w-full box-border min-h-[144px] opacity-[1] z-[0]  rotate-[0deg]   text-left leading-[0px]  ">
-              <span className="find-your-furry-20811192-0 ">{text1}</span>
-              <span className="find-your-furry-20811192-1 ">{text2}</span>
-              <span className="find-your-furry-20811192-2 ">{text3}</span>
+              <span className="find-your-furry-20811192-0 text-[59px] md:text-[79px] ">{text1}</span>
+              <span className="find-your-furry-20811192-1 text-[59px] md:text-[79px] ">{text2}</span>
+              <span className="find-your-furry-20811192-2 text-[59px] md:text-[79px] ">{text3}</span>
             </div>
             <div className=" max-w-[542px] w-full box-border min-h-[36px] opacity-[1] z-[1]  rotate-[0deg]   text-left leading-[0px]  ">
               <span className="streamlined-pet-20811193-0 ">{text4}</span>

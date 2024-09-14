@@ -10,7 +10,7 @@
   box-sizing: border-box;
 }
 .how-does-blush--20561146-0 {
-  font-size: 59px;
+  /* font-size: 59px; */
   letter-spacing: -1.2px;
   line-height: 60px;
 
@@ -68,9 +68,9 @@
   );
 }
 .easy-browsing-20561177-0 {
-  font-size: 39px;
+  /* font-size: 39px; */
   letter-spacing: -0.8px;
-  line-height: 40px;
+  /* line-height: 40px; */
 
   font-family: Abhaya Libre;
   font-weight: 700;

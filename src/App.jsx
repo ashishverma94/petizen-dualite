@@ -13,11 +13,11 @@ function App() {
 
   return (
     <div className="px-[10px] py-8 md:px-[100px] ">
-      <Navbar />
-      <HeroSection />
-      <MiddleCard/>
+      {/* <Navbar /> */}
+      {/* <HeroSection /> */}
+      {/* <MiddleCard/> */}
       <Mobile/>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }

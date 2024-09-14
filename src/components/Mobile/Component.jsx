@@ -1,11 +1,8 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import "./css/style.css";
-
-import runAnimations, { allLinks, allFunctions } from "./scripts";
 import texts from "./data/texts";
-import images from "./data/images";
 
-//The data/*.js files are objects for default data, use the component with prop values of your choice/requirement
+let test = "bg-[skyblue] @xs:bg-[red] @xl:bg-[yellow] @4xl:bg-[blue]"
 
 const Mobile = ({
   text1 = texts.text1,
@@ -17,14 +14,16 @@ const Mobile = ({
   text7 = texts.text7,
 }) => {
   return (
-    <div className="wrapper-div-20561145 relative m-auto p-[0px] box-border">
-      <div className=" max-w-[1440px] w-full box-border min-h-[2454px] opacity-[1] z-[1]  rotate-[0deg]   flex flex-col flex-nowrap justify-start items-center gap-[60px] p-[120px_0px_120px__0px] bg-[#ffffffff]  ">
-        <div className=" max-w-[1200px] w-full box-border min-h-[120px] opacity-[1] z-[0]  rotate-[0deg]   text-center leading-[0px]  ">
-          <span className="how-does-blush--20561146-0 ">{text1}</span>
+    <div className="wrapper-div-20561145 @container relative m-auto p-[0px] box-border">
+      <div className="w-full  box-border opacity-[1] z-[1]  rotate-[0deg]   flex flex-col flex-nowrap justify-start items-center gap-[20px] lg:p-[30px_0px_30px__0px] md:p-[20px_0px_20px__0px] p-[10px_0px_10px__0px] bg-[#ffffffff]  ">
+        <div className="w-full @container box-border opacity-[1] z-[0]  rotate-[0deg]   text-center leading-[0px]  ">
+          <span className="how-does-blush--20561146-0  @xs:text-[25px]  @xl:text-[30px] @4xl:text-[59px] @xs:leading-[25px] @xl:leading-[35px] @4xl:leading-[50px] ">
+            {text1}
+          </span>
         </div>
         {/* Frame 691 */}
-        <section className=" max-w-[1200px] w-full box-border min-h-[2034px] opacity-[1] z-[1]  rotate-[0deg]   overflow-hidden flex flex-col flex-nowrap justify-center items-start p-[0px_0px_0px__0px] rounded-tl-[60px] rounded-tr-[60px] rounded-br-[60px] rounded-bl-[60px] bg-[#ffffffff]  ">
-          <div className=" max-w-[1200px] w-full box-border min-h-[678px] opacity-[1] z-[0]  rotate-[0deg]   flex flex-wrap justify-center items-center gap-[40px] p-[40px_0px_40px__0px] bg-[#f9655e1f]  ">
+        <section className="  max-w-[1200px] @container w-full box-border opacity-[1] z-[1]  rotate-[0deg]   overflow-hidden flex flex-col flex-nowrap justify-center items-start p-[0px_0px_0px__0px] @xs:rounded-[15px] @xl:rounded-[30px] @4xl:rounded-[60px] bg-[#ffffffff]  ">
+          {/* <div className=" max-w-[1200px] w-full box-border min-h-[678px] opacity-[1] z-[0]  rotate-[0deg]   flex flex-wrap justify-center items-center gap-[40px] p-[40px_0px_40px__0px] bg-[#f9655e1f]  ">
             <div className=" w-[500px] min-h-[598px] opacity-[1] z-[0]  rotate-[0deg]    ">
               <div className=" w-[255.72px] min-h-[518px] top-[40.16px] left-[122px] opacity-[1] z-[0]  rotate-[0deg]     absolute ">
                 <div className=" w-[251.2px] min-h-[518px] top-[0px] left-[2.27px] opacity-[1] z-[0]  rotate-[0deg]   absolute ">
@@ -128,8 +127,8 @@ const Mobile = ({
                 <span className="effortlessly-ex-20561210-0 ">{text5}</span>
               </div>
             </div>
-          </div>
-          <div className=" max-w-[1200px] w-full box-border min-h-[678px] opacity-[1] z-[2]  rotate-[0deg]   flex flex-wrap justify-center items-center gap-[40px] p-[40px_0px_40px__0px] bg-[#f9655e1f]  ">
+          </div> */}
+          <div className=" w-full box-border min-h-[678px] opacity-[1] z-[2]  rotate-[0deg]   flex @xl:flex-row flex-col  justify-center items-center @xl:gap-[190px]   @4xl:gap-[340px] @xs:p-[10px_0px_10px__0px] @xl:p-[20px_0px_20px__0px] @4xl:p-[40px_0px_40px__0px] bg-[#f9655e1f]  ">
             <div className=" w-[500px] min-h-[598px] opacity-[1] z-[0]  rotate-[0deg]    ">
               <div className=" w-[319px] min-h-[319px] top-[289px] left-[-51px] opacity-[1] z-[0]  rotate-[0deg]   rounded-full bg-[#f9655eff]   absolute "></div>
               <div className=" w-[255.72px] min-h-[518px] top-[40px] left-[122.14px] opacity-[1] z-[1]  rotate-[0deg]     absolute ">
@@ -141,7 +140,7 @@ const Mobile = ({
                       src="https://firebasestorage.googleapis.com/v0/b/figma-plugin-a7287.appspot.com/o/user-images%2F12-sep-2024%2Fashishverma1726137724162%2Fimage-2056-1218.png?alt=media&token=0"
                       className="absolute  top-0 left-0 w-full h-full bg-contain bg-no-repeat bg-transparent bg-center object-cover"
                       alt="Screen1 Image"
-                    />{" "}
+                    />
                   </div>
                 </div>
                 <div className=" w-[251.2px] min-h-[518px] top-[0px] left-[2.27px] opacity-[1] z-[1]  rotate-[0deg]   absolute ">
@@ -173,9 +172,9 @@ const Mobile = ({
                 </div>
               </div>
             </div>
-            <div className=" max-w-[500px] w-full box-border min-h-[166px] opacity-[1] z-[1]  rotate-[0deg]   flex flex-col flex-nowrap justify-center items-start gap-[20px] p-[0px_0px_0px__0px]  ">
-              <div className=" max-w-[231px] w-full box-border min-h-[40px] opacity-[1] z-[0]  rotate-[0deg]   text-left leading-[0px]  ">
-                <span className="easy-browsing-20561241-0 ">{text6}</span>
+            <div className=" w-full box-border @container min-h-[166px] px-[20px] opacity-[1] z-[1]  rotate-[0deg]   flex flex-col flex-nowrap justify-center items-start gap-[20px] p-[0px_0px_0px__0px]  ">
+              <div className=" max-w-[231px]  w-full box-border min-h-[40px] opacity-[1] z-[0]  rotate-[0deg]   text-left leading-[0px]  ">
+                <span className="easy-browsing-20561241-0  ">{text6}</span>
               </div>
               <div className=" max-w-[500px] w-full box-border min-h-[120px] opacity-[1] z-[1]  rotate-[0deg]   text-left leading-[0px]  ">
                 <span className="effortlessly-ex-20561242-0 ">{text7}</span>

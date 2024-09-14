@@ -74,3 +74,37 @@
   white-space: nowrap;
   color: #ffffffff;
 }
+
+.button-container {
+  background-color: green !important;
+}
+
+.button_container1 {
+  font-size: 16px;
+  color: #ffffff;
+  border-radius: 99px;
+}
+
+@container (max-width: 300px) {
+  .button_container1 {
+    font-size: 12px;  
+    color: #000000;  
+    padding: 4px 8px;  
+  }
+
+  .button-container {
+    background-color: #ff6600;  
+  }
+}
+
+@container (min-width: 301px) and (max-width: 600px) {
+  .button_container1 {
+    font-size: 14px;  
+    color: #333333;  
+  }
+
+  .button-container {
+    background-color: #ff9900; 
+  }
+}
+

@@ -22,7 +22,7 @@ const Footer = ({
     <div className="wrapper-div-20561244 relative m-auto p-[0px] box-border">
       <div className=" max-w-[1440px] w-full box-border min-h-[594px] opacity-[1] z-[1]  rotate-[0deg]   overflow-hidden flex flex-col flex-nowrap justify-start items-center gap-[80px] p-[80px_0px_80px__0px] bg-[#f9655eff]  ">
         {/* Frame 61 */}
-        <section className=" max-w-[1400px] w-full box-border min-h-[214px] opacity-[1] z-[0]  rotate-[0deg]   flex flex-wrap justify-center items-center gap-[16px] p-[0px_0px_0px__0px]  ">
+        <section className=" max-w-[1400px]  w-full box-border min-h-[214px] opacity-[1] z-[0]  rotate-[0deg]   flex flex-wrap justify-center items-center gap-[16px] p-[0px_0px_0px__0px]  ">
           <div className=" max-w-[464px] w-full box-border min-h-[99px] opacity-[1] z-[0]  rotate-[0deg]   text-left leading-[0px]  ">
             <span className="pet-adoption-20561246-0 ">{text1}</span>
           </div>
@@ -82,7 +82,7 @@ const Footer = ({
           </div>
           <div className=" max-w-[140px] w-full box-border min-h-[82px] opacity-[1] z-[1]  rotate-[0deg]   flex flex-col flex-nowrap justify-start items-start gap-[60px] p-[0px_0px_0px__0px]  ">
             <div className=" max-w-[139px] w-full box-border min-h-[82px] opacity-[1] z-[0]  rotate-[0deg]   flex flex-col flex-nowrap justify-start items-start gap-[36px] p-[0px_0px_0px__0px]  ">
-              <div className=" max-w-[128px] w-full box-border min-h-[24px] opacity-[1] z-[0]  rotate-[0deg]   overflow-hidden flex flex-nowrap justify-start items-center gap-[28px] p-[0px_0px_0px__0px]  ">
+              <div className=" pt-4 max-w-[128px] w-full box-border min-h-[24px] opacity-[1] z-[0]  rotate-[0deg]   overflow-hidden flex flex-nowrap justify-start items-center gap-[28px] p-[0px_0px_0px__0px]  ">
                 <div className=" w-[24px] max-w-[100%] min-h-[24px] opacity-[1] z-[0]  rotate-[0deg] overflow-hidden  ">
                   <img
                     src="https://firebasestorage.googleapis.com/v0/b/figma-plugin-a7287.appspot.com/o/user-images%2F12-sep-2024%2Fashishverma1726137724162%2Fimage-2056-1270.png?alt=media&token=0"
