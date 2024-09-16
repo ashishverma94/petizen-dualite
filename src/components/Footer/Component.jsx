@@ -5,7 +5,7 @@ import texts from "./data/texts";
 import images from "./data/images";
 
 const Footer = ({
-  image1 = images.image1,
+  image1 =  images.image1,
   text1 = texts.text1,
   text2 = texts.text2,
   text3 = texts.text3,
