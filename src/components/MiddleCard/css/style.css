@@ -40,18 +40,18 @@
   --image-38: url(../graphics/graphics38.png);
   --image-39: url(../graphics/graphics39.png);
   position: relative;
-  max-width: 1440px;
+  /* max-width: 1440px; */
   margin: auto;
   padding: 0px;
   box-sizing: border-box;
 }
 .how-does-petize-20391209-0 {
   /* font-size: 59px; */
-  letter-spacing: -1.2px;
+  /* letter-spacing: -1.2px; */
   /* line-height: 60px; */
 
-  font-family: Abhaya Libre;
-  font-weight: 700;
+  /* font-family: Abhaya Libre; */
+  /* font-weight: 700; */
 
   text-decoration: none;
   text-transform: none;

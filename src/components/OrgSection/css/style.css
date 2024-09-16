@@ -4,7 +4,7 @@
   --image-2: url(../graphics/graphics2.png);
   --image-3: url(../graphics/graphics3.png);
   position: relative;
-  max-width: 1440px;
+  /* max-width: 1440px; */
   margin: auto;
   padding: 0px;
   box-sizing: border-box;
@@ -26,9 +26,9 @@
   background-image: var(--image-3);
 }
 .apply-to-be-an--20811216-0 {
-  font-size: 59px;
+  /* font-size: 59px; */
   letter-spacing: -1.2px;
-  line-height: 60px;
+  /* line-height: 60px; */
 
   font-family: Abhaya Libre;
   font-weight: 700;

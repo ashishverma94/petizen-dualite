@@ -1,11 +1,8 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import "./css/style.css";
 
-import runAnimations, { allLinks, allFunctions } from "./scripts";
 import texts from "./data/texts";
 import images from "./data/images";
-
-//The data/*.js files are objects for default data, use the component with prop values of your choice/requirement
 
 const Footer = ({
   image1 = images.image1,
@@ -20,29 +17,35 @@ const Footer = ({
 }) => {
   const test = "bg-[skyblue] @xs:bg-[red] @xl:bg-[yellow] @4xl:bg-[blue]";
   const fontLeading =
-    "@xs:text-[35px]  @xl:text-[40px] @4xl:text-[59px] leading-[45px] ";
+    "@xs:text-[35px]  @xl:text-[40px] @4xl:text-[59px] leading-[69px] ";
   return (
     <div className="wrapper-div-20561244 relative m-auto p-[0px] box-border">
-      <div className=" max-w-[1440px] w-full box-border opacity-[1] z-[1]  rotate-[0deg]   overflow-hidden flex flex-col flex-nowrap justify-start items-center gap-[80px] p-[20px_0px_20px__0px] bg-[#f9655eff]  ">
+      <div className=" w-full box-border opacity-[1] z-[1]  rotate-[0deg]   overflow-hidden flex flex-col flex-nowrap justify-start items-center gap-[80px] p-[20px_0px_20px__0px] bg-[#f9655eff]  ">
         {/* Frame 61 */}
-        <section className=" @container   w-full box-border  opacity-[1] z-[0]  rotate-[0deg] flex flex-wrap justify-center items-center gap-[6px] p-[0px_0px_0px__0px]  ">
-          <div className=" box-border  opacity-[1] z-[0]  rotate-[0deg]   text-left leading-[0px]  ">
-            <span className={`pet-adoption-20561246-0 ${fontLeading}`}>
-              {text1}
-            </span>
-          </div>
-          <div className=" box-border  opacity-[1] z-[1]  rotate-[0deg]   text-left leading-[0px]  ">
-            <span className={`petizen-20561247-0 ${fontLeading}`}>{text2}</span>
-          </div>
-          <div className=" box-border  opacity-[1] z-[2]  rotate-[0deg]   text-left leading-[0px]  ">
-            <span className={`pet-adoption-20561248-0 ${fontLeading} `}>
-              {text3}
-            </span>
-          </div>
-          <div className=" box-border  opacity-[1] z-[3]  rotate-[0deg]   text-left leading-[0px]  ">
-            <span className={`petizen-20561249-0 ${fontLeading}`}>{text4}</span>
-          </div>
-        </section>
+        <marquee direction="right" scrollamount="5">
+          <section className=" @container   w-full box-border  opacity-[1] z-[0]  rotate-[0deg] flex justify-center items-center gap-[6px] p-[0px_0px_0px__0px]  ">
+            <div className=" box-border  opacity-[1] z-[0]  rotate-[0deg]   text-left leading-[0px]  ">
+              <span className={`pet-adoption-20561246-0 ${fontLeading}`}>
+                {text1}
+              </span>
+            </div>
+            <div className=" box-border  opacity-[1] z-[1]  rotate-[0deg]   text-left leading-[0px]  ">
+              <span className={`petizen-20561247-0 ${fontLeading}`}>
+                {text2}
+              </span>
+            </div>
+            <div className=" box-border  opacity-[1] z-[2]  rotate-[0deg]   text-left leading-[0px]  ">
+              <span className={`pet-adoption-20561248-0 ${fontLeading} `}>
+                {text3}
+              </span>
+            </div>
+            <div className=" box-border  opacity-[1] z-[3]  rotate-[0deg]   text-left leading-[0px]  ">
+              <span className={`petizen-20561249-0 ${fontLeading}`}>
+                {text4}
+              </span>
+            </div>
+          </section>
+        </marquee>
         {/* Frame 811 */}
         <section className=" max-w-[1400px]  w-full box-border min-h-[140px] opacity-[1] z-[1]  rotate-[0deg]   flex flex-wrap justify-between items-end content-space-between p-[0px_80px_0px__80px]  ">
           <div className=" max-w-[600px] w-full box-border min-h-[140px] opacity-[1] z-[0]  rotate-[0deg]   flex flex-wrap justify-start items-start gap-[20px] p-[0px_0px_0px__0px]  ">

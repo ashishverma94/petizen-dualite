@@ -6,17 +6,16 @@ import HeroSection from "./components/HeroSection/Component";
 import MiddleCard from "./components/MiddleCard/Component";
 import Mobile from "./components/Mobile/Component";
 import Footer from "./components/Footer/Component";
-
+import OrgSection from "./components/OrgSection/Component" ;
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <div className="px-[10px] py-8 md:px-[100px] ">
+    <div>
       {/* <Navbar /> */}
       <HeroSection />
       <MiddleCard/>
       <Mobile/>
+      <OrgSection/>
       <Footer/>
     </div>
   );

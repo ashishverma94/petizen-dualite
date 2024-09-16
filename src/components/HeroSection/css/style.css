@@ -5,7 +5,7 @@
   --image-3: url(../graphics/graphics3.png);
   --image-4: url(../graphics/graphics4.png);
   position: relative;
-  max-width: 1440px;
+  /* max-width: 1440px; */
   margin: auto;
   padding: 0px;
   box-sizing: border-box;
