@@ -1,7 +1,7 @@
 import React from "react";
 import "./css/style.css";
 import texts from "./data/texts";
-import Human from "../../assets/human.png"
+import Human from "../../assets/Human.png"
 const OrgSection = ({ text1 = texts.text1, text2 = texts.text2 }) => {
   const test = "bg-[skyblue] @xs:bg-[red] @xl:bg-[yellow] @4xl:bg-[blue]";
   const fontLeading =
