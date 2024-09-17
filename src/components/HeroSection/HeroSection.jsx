@@ -47,7 +47,7 @@ const HeroSection = ({}) => {
 
   return (
     <div className="relative p-[0px] box-border">
-      <div className=" @container min-h-[100vh]  w-full box-border opacity-[1] z-[1]  rotate-[0deg]    flex flex-col md:flex-row justify-center items-center gap-[48px] p-[10px_0px_10px__0px] bg-[#ffffffff]  ">
+      <div className=" @container min-h-[85vh]  w-full box-border opacity-[1] z-[1]  rotate-[0deg]    flex flex-col md:flex-row justify-center items-center gap-[48px] p-[10px_0px_10px__0px] bg-[#ffffffff]  ">
         {/* Splash Text1 */}
         <section className="  @container  @xl:px-[40px] @4xl:px-[120px] leading-[75px]     w-full  @4xl:w-[50%]  box-border  opacity-[1] z-[0]  rotate-[0deg]   flex flex-col  justify-start items-start gap-[32px] p-[20px_20px_20px__20px]  ">
           <div className="  w-full box-border  opacity-[1] z-[0]  rotate-[0deg]   flex flex-col flex-nowrap justify-start items-start gap-[8px] p-[0px_0px_0px__0px]  ">
