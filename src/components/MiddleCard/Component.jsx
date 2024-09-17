@@ -20,8 +20,8 @@ const MiddleCard = ({
   return (
     <div className="wrapper-div-20391208 relative m-auto p-[0px] box-border">
       <div className=" w-full box-border opacity-[1] z-[1]  rotate-[0deg]   flex flex-col flex-nowrap justify-start items-center gap-[60px] p-[20px_0px_20px__0px] bg-[#feedecff]  ">
-        <div className=" max-w-[993px] w-full  @container opacity-[1] z-[0]  rotate-[0deg]   text-center leading-[0px] box-border [-webkit-text-stroke:1px_#000000ff] bg-clip-text [text-shadow:0px_4px_4px_rgba(0,0,0,0.25)]  ">
-          <span className="how-does-petize-20391209-0 @xs:text-[35px] font-[600]  @xl:text-[35px] @4xl:text-[59px] leading-[60px]">
+        <div className=" max-w-[993px] w-full  @container opacity-[1] z-[0]  rotate-[0deg]   text-center leading-[0px] box-border  bg-clip-text   ">
+          <span className="how-does-petize-20391209-0 max-w-[993px] text-[35px] font-[600] @4xl:text-[55px] @4xl:leading-[60px] leading-[30px]">
             {text1}
           </span>
         </div>
@@ -33,7 +33,7 @@ const MiddleCard = ({
                 <img className="max-w-[280px]" src={Lens} alt="lens" />
               </div>
             </div>
-            <div className=" max-w-[368px] w-full box-border min-h-[244px] opacity-[1] z-[1]  rotate-[0deg]   flex flex-col flex-nowrap justify-start items-start gap-[12px] p-[20px_0px_20px__0px]  ">
+            <div className=" px-5 max-w-[368px] w-full box-border min-h-[244px] opacity-[1] z-[1]  rotate-[0deg]   flex flex-col flex-nowrap justify-start items-start gap-[12px] p-[20px_0px_20px__0px]  ">
               <div className=" max-w-[162px] w-full box-border min-h-[42px] opacity-[1] z-[0]  rotate-[0deg]   text-left leading-[0px]  ">
                 <span className="easy-browsing-20391222-0 ">{text2}</span>
               </div>
@@ -48,7 +48,7 @@ const MiddleCard = ({
                 <img className="max-w-[280px]" src={Cat} alt="lens" />
               </div>
             </div>
-            <div className=" max-w-[368px] w-full box-border min-h-[274px] opacity-[1] z-[1]  rotate-[0deg]   flex flex-col flex-nowrap justify-start items-start gap-[12px] p-[20px_0px_20px__0px]  ">
+            <div className="px-5 max-w-[368px] w-full box-border min-h-[274px] opacity-[1] z-[1]  rotate-[0deg]   flex flex-col flex-nowrap justify-start items-start gap-[12px] p-[20px_0px_20px__0px]  ">
               <div className=" max-w-[303px] w-full box-border min-h-[42px] opacity-[1] z-[0]  rotate-[0deg]   text-left leading-[0px]  ">
                 <span className="seamless-adopti-20391291-0 ">{text4}</span>
               </div>
@@ -63,7 +63,7 @@ const MiddleCard = ({
                 <img className="max-w-[280px]" src={Dog} alt="lens" />
               </div>
             </div>
-            <div className=" max-w-[368px] w-full box-border min-h-[274px] opacity-[1] z-[1]  rotate-[0deg]   flex flex-col flex-nowrap justify-start items-start gap-[12px] p-[20px_0px_20px__0px]  ">
+            <div className="px-5 max-w-[368px] w-full box-border min-h-[274px] opacity-[1] z-[1]  rotate-[0deg]   flex flex-col flex-nowrap justify-start items-start gap-[12px] p-[20px_0px_20px__0px]  ">
               <div className=" max-w-[235px] w-full box-border min-h-[42px] opacity-[1] z-[0]  rotate-[0deg]   text-left leading-[0px]  ">
                 <span className="personalized-pr-20391304-0 ">{text6}</span>
               </div>

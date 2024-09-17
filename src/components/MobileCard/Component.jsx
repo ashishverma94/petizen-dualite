@@ -16,8 +16,8 @@ const Mobile = ({
   return (
     <div className="wrapper-div-20561145 @container relative m-auto p-[0px] box-border">
       <div className="w-full  box-border opacity-[1] z-[1]  rotate-[0deg]   flex flex-col flex-nowrap justify-start items-center gap-[20px] lg:p-[30px_0px_30px__0px] md:p-[20px_0px_20px__0px] p-[10px_0px_10px__0px] bg-[#ffffffff]  ">
-        <div className="w-full @container box-border opacity-[1] z-[0]  rotate-[0deg]   text-center leading-[0px]  ">
-          <span className="how-does-blush--20561146-0  @xs:text-[25px]  @xl:text-[30px] @4xl:text-[59px] @xs:leading-[25px] @xl:leading-[35px] @4xl:leading-[60px] ">
+        <div className="w-full  @xl:w-[600px] @2xl:w-[800px] @4xl:w-[1093px] @container box-border opacity-[1] z-[0]  rotate-[0deg]   text-center leading-[0px]  ">
+          <span className="   how-does-blush--20561146-0   text-[25px]  @xl:text-[40px] @5xl:text-[69px] leading-[25px] @xl:leading-[35px] @4xl:leading-[60px] ">
             {text1}
           </span>
         </div>
