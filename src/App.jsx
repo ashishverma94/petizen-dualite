@@ -2,7 +2,7 @@ import Footer from "./components/Footer/Component";
 import Mobile from "./components/MobileCard/Component" ;
 import MiddleCard from "./components/MiddleCard/Component"
 import OrgSection from "./components/OrgSection/Component" ;
-import HeroSection from "./components/HeroSection/Component";
+import HeroSection from "./components/HeroSection/HeroSection";
 
 function App() {
   return (
