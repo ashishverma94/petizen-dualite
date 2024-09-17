@@ -1,20 +1,20 @@
 import HumanDog from "../../assets/hdog.png";
 
-const HeroSection = ({}) => {
-  function textStyling(
-    textSize,
-    tracking,
-    leading,
-    colorHex,
-    whiteSpace,
-    underline,
-    fontType,
-    fontVal
-  ) {
-    const textCss = `text-[${textSize}] tracking-[${tracking}] leading-[${leading}] font-${fontType} font-[${fontVal}] ${underline}-underline text-[#${colorHex}] whitespace-${whiteSpace}`;
-    return textCss;
-  }
+function textStyling(
+  textSize,
+  tracking,
+  leading,
+  colorHex,
+  whiteSpace,
+  underline,
+  fontType,
+  fontVal
+) {
+  const textCss = `text-[${textSize}] tracking-[${tracking}] leading-[${leading}] font-${fontType} font-[${fontVal}] ${underline}-underline text-[#${colorHex}] whitespace-${whiteSpace}`;
+  return textCss;
+}
 
+const HeroSection = ({}) => {
   console.log(
     textStyling(
       "23px",
